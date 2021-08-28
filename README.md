@@ -1,2 +1,2 @@
-# Coming Soon
-Heliactyl 1.0 is under construction. Continue using 0.8 for now.
+# (pretend this is a windows 98 window bar)
+Why are you here?
