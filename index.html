@@ -22,8 +22,15 @@
   <br>
   <a class="btn" style="font-family: 'Lexend Deca', sans-serif; color: white; left-margin: 4px padding: 5px; background-color: #1E1E1E" href="https://network.sryden.com/">SRYDEN NETWORK</a>
   <a class="btn" style="font-family: 'Lexend Deca', sans-serif; color: white; padding: 5px; background-color: #1E1E1E" href="https://account.sryden.com/">SRYDEN ACCOUNT</a>
-  <a class="btn" style="font-family: 'Lexend Deca', sans-serif; color: #BBBBBB; padding: 5px; background-color: #1E1E1E" >SRYDEN CLOUD (Discontinued)</a>
+  <a class="btn" style="font-family: 'Lexend Deca', sans-serif; color: white; padding: 5px; background-color: #1E1E1E" href="#cloud" >SRYDEN CLOUD</a>
 
+        <div style="font-family: 'Lexend Deca', sans-serif; color: white" id="cloud" class="myPopup">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+        	<h2>Cloud has closed</h2>
+        	<p>Sryden Cloud Services shutdown on August 22nd</p>
+          </div>
+        </div> 
 <style>
 ul {
   list-style-type: none;
@@ -54,4 +61,43 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+
+    
+.myPopup {
+position: relative;
+opacity:0;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+.myPopup:target {
+opacity:1;}
+.myPopup > div {
+width: 400px;
+position: relative;
+margin: 10% auto;
+padding: 5px 20px 13px 20px;
+border-radius: 10px;
+background: #71a6fc;
+background: -moz-linear-gradient(#5CE1E6, #03989E);
+background: -webkit-linear-gradient(#5CE1E6, #03989E);
+}
+.close {
+background: #1E1E1E;
+color: #FFFFFF;
+line-height: 25px;
+position: absolute;
+right: -12px;
+text-align: center;
+top: -10px;
+width: 24px;
+text-decoration: none;
+-webkit-border-radius: 12px;
+-moz-box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #0E0E0E; }	
+
+
+  
   </style>
